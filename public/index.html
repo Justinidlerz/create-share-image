@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test canvas</title>
+    <style>
+        html, body{
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            overflow: hidden;
+        }
+        canvas {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .display {
+            max-width: 100%;
+        }
+        button {
+            width: 200px;
+            height: 40px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+        }
+        input {
+            margin-left: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <p>几人团:<input id="number" value="100" /></p>
+    <p>价格:<input id="price" value="50" /></p>
+    <p>商品名称:<input id="goodsName" value="享食者" /></p>
+    <p>商品图片地址:<input id="goodsImage" value="//img13.360buyimg.com/evalpic/s200x200_jfs/t18925/271/1276748011/687433/b05e3d5e/5ac47ca2Nefdcfa1c.jpg.dpg" /></p>
+    <p>用户昵称:<input id="userName" value="哈哈哈哈" /></p>
+    <p>用户头像地址:<input id="cover" value="//wq.360buyimg.com/img/pingou-head/65.jpg" /></p>
+    <p>访问url地址:<input id="url" value="https://wqs.jd.com/pingou/detail.shtml?showTitle=1&_wv=1025&jdshwkon=1&PTAG=17053.1.1&platform=2&sku=11197144266&activeid=15241192798809&tuanid=1525146533504642491&utm_source=weixin&utm_medium=weixin&utm_campaign=t_1000072672_17053_001" /></p>
+    <button id="button">点击生成图片</button>
+    <p>生成后长按下图保存至本地</p>
+    <div id="img">
+        
+    </div>
+</body>
+</html>
